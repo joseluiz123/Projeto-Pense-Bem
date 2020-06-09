@@ -42,13 +42,13 @@ function jogar(resposta) {
  		
 		
 		
-	if (resposta == gabarito[num-1]){
+	if (resposta == gabarito[num-1]) //{
 		pontos++;
 		num++;
 		//tentativa++;
-	} else {
+	/*} else {
 		tentativa++;
-	}
+	} */
 
 	if (num > 30) {
 		document.getElementById('visor1').value = "***FIM***";
