@@ -36,10 +36,12 @@ function iniciar() {
 function jogar(resposta) {
 	document.getElementById('visor1').value = programa + "->" + num + ":" + resposta;
 
-	if (resposta == gabarito[num-1])
+	if (resposta == gabarito[num-1]){
 		pontos++;
-
-	num++;
+		num++;
+	} else {
+		tentativa++;
+	}
 
 	if (num > 30) {
 		document.getElementById('visor1').value = "***FIM***";
