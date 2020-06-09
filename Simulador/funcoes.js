@@ -36,10 +36,10 @@ function iniciar() {
 function jogar(resposta) {
 	document.getElementById('visor1').value = programa + "->" + num + ":" + resposta;
 
-	while(resposta != gabarito[num-1]){
+	/* while(resposta != gabarito[num-1]){
 		tentativa++;
-	}
-		
+	} */
+ 		
 		
 		
 	if (resposta == gabarito[num-1]){
