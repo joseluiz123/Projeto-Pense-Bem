@@ -45,9 +45,9 @@ function jogar(resposta) {
 	if (resposta == gabarito[num-1]){
 		pontos++;
 		num++;
-		tentativa++;
-	} else {
 		//tentativa++;
+	} else {
+		tentativa++;
 	}
 
 	if (num > 30) {
